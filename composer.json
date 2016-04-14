@@ -1,0 +1,21 @@
+{
+  "name" : "jaeger-app/console",
+  "description" : "A Console / Terminal abstraction to write shell interfaces.",
+  "require" : {
+    "php" : ">=5.4.0",
+	"wp-cli/php-cli-tools": "^0.10.5"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "4.*"
+  },
+  "authors" : [ {
+    "name" : "Eric Lamb",
+    "email" : "eric@mithra62.com"
+  } ],
+  "autoload" : {
+    "psr-4" : {
+      "JaegerApp\\Console\\" : "src/Console.php"
+    }
+  },
+  "license" : "MIT"
+}
