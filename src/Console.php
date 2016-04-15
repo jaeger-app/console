@@ -11,7 +11,7 @@
 namespace JaegerApp;
 
 /**
- * JaegerApp - Console Object
+ * Jaeger - Console Object
  *
  * Abstracts our Console interface
  *
