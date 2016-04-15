@@ -1,22 +1,22 @@
 {
-  "name" : "jaeger-app/console",
-  "description" : "A Console / Terminal abstraction to write shell interfaces for Jaeger based plugins.",
-  "require" : {
-    "php" : ">=5.4.0",
-    "jaeger-app/language": "dev-master",
-	"wp-cli/php-cli-tools": "^0.10.5"
-  },
-  "require-dev" : {
-    "phpunit/phpunit" : "4.*"
-  },
-  "authors" : [ {
-    "name" : "Eric Lamb",
-    "email" : "eric@mithra62.com"
-  } ],
-  "autoload" : {
-    "psr-4" : {
-      "JaegerApp\\" : "src/"
-    }
-  },
-  "license" : "MIT"
+	"name": "jaeger-app/console",
+	"description": "A Console / Terminal abstraction to write shell interfaces for Jaeger based plugins.",
+	"require": {
+		"php": ">=5.4.0",
+		"jaeger-app/language": "dev-master",
+		"wp-cli/php-cli-tools": "^0.10.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.*"
+	},
+	"authors": [{
+		"name": "Eric Lamb",
+		"email": "eric@mithra62.com"
+	}],
+	"autoload": {
+		"psr-4": {
+			"JaegerApp\\": "src/"
+		}
+	},
+	"license": "MIT"
 }
