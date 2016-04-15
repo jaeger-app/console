@@ -1,16 +1,17 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
- * @version		3.0
- * @filesource 	./mithra62/Console.php
+ * @author		Eric Lamb <eric@mithra62.com>
+ * @copyright	Copyright (c) 2015-2016, mithra62, Eric Lamb
+ * @link		http://jaeger-app.com
+ * @version		1.0
+ * @filesource 	./Console.php
  */
-namespace mithra62;
+namespace JaegerApp;
 
 /**
- * mithra62 - Console Object
+ * JaegerApp - Console Object
  *
  * Abstracts our Console interface
  *
@@ -81,7 +82,7 @@ class Console
     /**
      * An instance of the language object
      * 
-     * @return \mithra62\Language
+     * @return \JaegerApp\Language
      */
     public function getLang()
     {
@@ -92,7 +93,7 @@ class Console
      * Sets the language object
      * 
      * @param Language $lang            
-     * @return \mithra62\Console
+     * @return \JaegerApp\Console
      */
     public function setLang(Language $lang)
     {

@@ -1,8 +1,9 @@
 {
   "name" : "jaeger-app/console",
-  "description" : "A Console / Terminal abstraction to write shell interfaces.",
+  "description" : "A Console / Terminal abstraction to write shell interfaces for Jaeger based plugins.",
   "require" : {
     "php" : ">=5.4.0",
+    "jaeger-app/language": "dev-master",
 	"wp-cli/php-cli-tools": "^0.10.5"
   },
   "require-dev" : {
@@ -14,7 +15,7 @@
   } ],
   "autoload" : {
     "psr-4" : {
-      "JaegerApp\\Console\\" : "src/Console.php"
+      "JaegerApp\\" : "src/"
     }
   },
   "license" : "MIT"
