@@ -8,12 +8,13 @@
  * @version		1.0
  * @filesource 	./Console.php
  */
+ 
 namespace JaegerApp;
 
 /**
- * Jaeger - Console Object
+ * Jaeger - Console Output Object
  *
- * Abstracts our Console interface
+ * Handles outputting/writing data to the console 
  *
  * @package Platforms\Console
  * @author Eric Lamb <eric@mithra62.com>
