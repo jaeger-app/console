@@ -25,13 +25,22 @@ class ConsoleTest extends \PHPUnit_Framework_TestCase
     /**
      * @todo learn how to write console unit tests
      */
-    public function testOutputError()
+    public function testGetLangDefaultValue()
     {
         $console = new Console();
-        //$lang = new Language();
-        //$lang->setPathToLogFile('./data/language/console_test.php');
-        //$console->setLang($lang);
-        //$console->outputLine('fdsafdsa', false);
-        //$this->assertEquals(4,);
+        $this->assertNull($console->getLang());
+    }
+    
+    public function testSetLangReturnInstance()
+    {
+        $console = new Console();
+        $this->assertInstanceOf('JaegerApp\Console', $console->setLang(new Language()));
+    }
+    
+    public function testSetLangGetLangValue()
+    {
+        $console = new Console();
+        $console->setLang(new Language());
+        $this->assertInstanceOf('JaegerApp\Language', $console->getLang());
     }
 }
