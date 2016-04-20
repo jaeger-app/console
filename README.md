@@ -27,4 +27,8 @@ $language = new Language;
 
 $console = new Console();
 $console->setLang($language);
+
+$console->outputError('My error string');
+$console->outputLine('My line of text to output in the console');
+$console->outputPageBreak();
 ```
