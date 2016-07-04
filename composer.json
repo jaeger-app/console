@@ -3,7 +3,7 @@
 	"description": "Handles outputting/writing data to the console.",
 	"require": {
 		"php": ">=5.4.0",
-		"jaeger-app/language": "dev-master",
+		"jaeger-app/language": "^0.1",
 		"wp-cli/php-cli-tools": "^0.10.5"
 	},
 	"require-dev": {
